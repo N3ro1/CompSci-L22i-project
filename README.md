@@ -10,13 +10,13 @@ The program is a banking system which
 2.	If no directs them to create an account
 3.	If yes asks them to login using account number 
 4.	After login the program asks if the person would like to deposit or withdraw money and acts accordingly
-5.	The accounts with name, accountNumber and balance are stored in a text file
+5.	The accounts are stored in a text file with: name, accountNumber and balance.
 6.	The program is also able to read the text file and determine if the account number provided matches one in the file
-7.	The program updates the balance of a person in the text file if they deposit or withdraw money
+7.	The program updates the balance of a person in the text file if they deposit or withdraw money.
 The user supplies the program with simple yes/no, deposit/withdraw or entering their name answers. All of the inputs are taken from the keyboard. Input is also taken from the text file when it is being read. 
 #### Data format
 The text file to which the user is writing consists of lines, each line containing: 
-name, accountNumber, balance
+name, accountNumber, balance.
 All of them are stored as single words. When numbers in file need to read by the program parseInt() function is called to read them. 
 ### Correctness and exception handling
 #### Typical test case
