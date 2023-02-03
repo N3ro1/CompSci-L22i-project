@@ -49,6 +49,8 @@ The following are all the possible exceptions / special cases and the way they a
 5.	If you write a name with two words the program breaks. I was not able to fix that case. 
 6.	The readLines function will catch an exception if the file is not able to be read.
 7.	Similarly the updateLines function will catch an exception if it is not able to update the balances in the file. 
+#### Wow-factor
+I think that the way the code keeps track of a persons balance in the text file and updates it according to a members deposits or withdrawls is a kind of wow-factor.
 ### Resource management
 The buffered reader resource is opened with the try-with-resources statement and is therefore closed automatically when the program no longer needs them, even in the case of an exception. 
 ### Reflection
