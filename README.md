@@ -13,6 +13,7 @@ The program is a banking system which
 5.	The accounts are stored in a text file with: name, accountNumber and balance.
 6.	The program is also able to read the text file and determine if the account number provided matches one in the file
 7.	The program updates the balance of a person in the text file if they deposit or withdraw money.
+
 The user supplies the program with simple yes/no, deposit/withdraw or entering their name answers. All of the inputs are taken from the keyboard. Input is also taken from the text file when it is being read. 
 #### Data format
 The text file to which the user is writing consists of lines, each line containing: 
